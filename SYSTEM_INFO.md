@@ -10,7 +10,7 @@
 | Field | Value |
 |---|---|
 | **System Name** | Smart Contract Auditor |
-| **Owner / Contact** | sundarapandian18@gmail.com |
+| **Owner / Contact** | sundarapandian****@gmail.com |
 | **Department** | Legal |
 | **Vendor** | AuditAI Corp |
 | **Vendor Type** | SaaS (Software as a Service) |
