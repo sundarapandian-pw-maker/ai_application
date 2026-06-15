@@ -1,7 +1,7 @@
-# 🤖 SYSTEM_INFO — Smart Contract Auditor
+# 🚗 SYSTEM_INFO — Autonomous Driver Monitoring System
 
 > **AI Governance Profile** · Last Updated: June 2026
-> This document provides a comprehensive description of the **Smart Contract Auditor** AI system as assessed under the EU AI Act and GDPR framework. All fields are derived from the Full Assessment questionnaire.
+> This document provides a comprehensive description of the **Autonomous Driver Monitoring System** as assessed under the EU AI Act and GDPR framework. All fields are derived from the Full Assessment questionnaire (Discovery API dummy data).
 
 ---
 
@@ -9,19 +9,20 @@
 
 | Field | Value |
 |---|---|
-| **System Name** | Smart Contract Auditor |
-| **Owner / Contact** | sundarapandian****@gmail.com |
-| **Department** | Legal |
-| **Vendor** | AuditAI Corp |
-| **Vendor Type** | SaaS (Software as a Service) |
-| **Version** | 2.1 |
+| **System Name** | Autonomous Driver Monitoring System |
+| **Owner / Contact** | [EMAIL_ADDRESS] |
+| **Department** | Operations |
+| **Vendor** | AutoSafe Technologies |
+| **Vendor Type** | Third-Party |
+| **Version** | 3.0 |
 | **Lifecycle Stage** | Production |
 | **Primary Language** | English |
 
 ### Explanation
 
-The **Smart Contract Auditor** is a production-grade SaaS AI system deployed by the **Legal Department**, operated by **AuditAI Corp** (version 2.1). The system is actively in use — not a prototype or pilot — meaning all governance, compliance, and risk controls apply immediately and with full legal force.
+The **Autonomous Driver Monitoring System** is a production-grade, third-party AI system deployed by the **Operations Department**, supplied by **AutoSafe Technologies** (version 3.0). The system is live and actively used in fleet or vehicle operations — not a prototype or pilot — meaning all governance, compliance, and risk controls apply with immediate and full legal force.
 
+The system owner (`EMAIL ID`) bears responsibility for ensuring the system remains compliant with applicable regulations, maintaining documentation, and coordinating any incident response or audit requests.
 
 ---
 
@@ -29,20 +30,20 @@ The **Smart Contract Auditor** is a production-grade SaaS AI system deployed by 
 
 | Field | Value |
 |---|---|
-| **AI Type** | Generative AI |
-| **AI Capabilities** | Generative AI, NLP (Natural Language Processing) |
-| **Primary Purpose** | Security Auditing |
-| **Output Type** | Text |
+| **AI Type** | Computer Vision |
+| **AI Capabilities** | Computer Vision, Biometric Recognition |
+| **Primary Purpose** | Real-time driver fatigue detection and autonomous vehicle safety monitoring |
+| **Output Type** | Automated Decisions, Risk Scores |
 
 ### Explanation
 
-The system is classified as **Generative AI** and leverages **Natural Language Processing (NLP)** to perform automated security auditing of smart contracts. It reads, interprets, and generates detailed textual analysis and audit reports.
+The system is classified as **Computer Vision AI** and employs **Biometric Recognition** technology to perform continuous, real-time monitoring of drivers while operating vehicles.
 
-- **Generative AI** means the system can produce novel text, summaries, and recommendations — not just retrieve pre-written answers.
-- **NLP** enables the system to understand legal and technical language in contracts and code.
-- The **output is purely text-based**: audit findings, risk ratings, legal observations, and recommendations are all delivered as written reports.
+- **Computer Vision** enables the system to analyse live camera feeds and detect visual signals — including facial expressions, eye closure patterns, head position, and micro-gestures associated with fatigue or distraction.
+- **Biometric Recognition** processes unique physiological characteristics of individual drivers, which is a highly regulated data category under GDPR Article 9.
+- The system produces **Automated Decisions** (e.g., triggering alerts, restricting vehicle operation, escalating incidents) and **Risk Scores** (continuous fatigue or attentiveness ratings) without human review.
 
-This combination makes the system powerful for legal and security teams but also introduces risks of hallucination, bias in reasoning, and overconfidence in generated outputs.
+This combination makes the system safety-critical but also introduces high risks of discriminatory profiling, privacy violations, and overreach in workplace surveillance.
 
 ---
 
@@ -56,13 +57,13 @@ This combination makes the system powerful for legal and security teams but also
 
 ### Explanation
 
-The **Smart Contract Auditor interacts directly with people** — users receive AI-generated outputs that influence their actions. Critically, this system operates in **Fully Automated** mode with **no human oversight**, meaning:
+The **Autonomous Driver Monitoring System interacts directly with drivers** in real time. Critically, this system operates in **Fully Automated** mode with **no human oversight**, meaning:
 
-- No human reviews the AI's output before it is delivered.
-- No human can intervene to block, modify, or approve decisions.
-- Users must rely entirely on the system's own accuracy and judgment.
+- No human reviews the AI's assessments before they are acted upon.
+- Automated risk scores and fatigue alerts can trigger operational consequences (e.g., vehicle slow-down, route changes, incident reports) without human approval.
+- Drivers have no mechanism to contest or override decisions in real time.
 
-> ⚠️ **This is a high-risk configuration.** Under the EU AI Act, systems making consequential automated decisions with no human oversight face strict obligations. The absence of any human-in-the-loop mechanism is a significant governance gap that must be addressed.
+> ⚠️ **This is a high-risk configuration.** Under the EU AI Act, fully automated systems operating in employment and critical infrastructure contexts with no human oversight are subject to the strictest obligations. The absence of any human-in-the-loop mechanism is a critical governance gap that must be remediated urgently.
 
 ---
 
@@ -72,15 +73,14 @@ The system operates in the following **EU AI Act high-risk domains**:
 
 | # | High-Risk Area | Implication |
 |---|---|---|
-| 1 | **Critical Infrastructure** | AI decisions could impact essential services or safety-critical systems |
-| 2 | **Law Enforcement** | Outputs may influence legal proceedings, investigations, or enforcement actions |
-| 3 | **Employee Monitoring** | System may process data about employees and impact their employment conditions |
+| 1 | **Critical Infrastructure** | Monitors vehicle operations; failures or errors could directly endanger lives on public roads |
+| 2 | **Employee Monitoring** | Continuously tracks and scores employees (drivers) in their working environment; impacts employment conditions and dignity |
 
 ### Explanation
 
-All three of these areas are explicitly listed in **Annex III of the EU AI Act** as high-risk application domains. A system that falls under even one of these categories is subject to mandatory conformity assessments, technical documentation, transparency requirements, and human oversight obligations.
+Both areas are explicitly listed in **Annex III of the EU AI Act** as high-risk application domains. Operating under even one of these categories mandates conformity assessments, technical documentation, human oversight, transparency obligations, and registration in the EU AI Act database.
 
-This system falls under **all three simultaneously**, which places it in the highest regulatory risk tier. Deployment without meeting these obligations exposes the organisation to enforcement action, fines, and legal liability.
+This system falls under **both simultaneously**, which places it in the highest regulatory risk tier. Deployment without meeting these obligations exposes the organisation to enforcement action, regulatory fines, and civil liability.
 
 ---
 
@@ -91,15 +91,15 @@ This system falls under **all three simultaneously**, which places it in the hig
 | **Profiles Individuals** | ✅ Yes |
 | **Infers Emotions** | ✅ Yes |
 | **Impacts Rights** | ✅ Yes |
-| **Impact Type** | Legal impact |
+| **Impact Type** | Safety impact |
 
 ### Explanation
 
-- **Profiles Individuals**: The system builds or contributes to profiles about specific people, combining data points to draw inferences about their behaviour, attributes, or risk.
-- **Infers Emotions**: The system attempts to interpret emotional states from data — a capability heavily regulated under GDPR Article 9 and flagged as high-risk under the EU AI Act when used in certain contexts (e.g., employment, law enforcement).
-- **Impacts Rights**: The system's outputs carry **legal impact** — meaning its findings or classifications can directly affect legal rights, obligations, or outcomes for the individuals or entities it processes data about.
+- **Profiles Individuals**: The system continuously builds profiles of each driver — tracking fatigue patterns, reaction times, and behavioural trends over time. This is ongoing automated profiling in an employment context.
+- **Infers Emotions**: The system infers cognitive and emotional states (alertness, drowsiness, stress) from biometric signals. Emotion inference in an employment/transport context is explicitly flagged as high-risk under the EU AI Act.
+- **Impacts Rights**: The system's decisions carry **direct safety impact** — incorrect classifications could result in wrongful disciplinary action, unjustified operational restrictions, or — critically — failure to intervene when a driver is genuinely impaired, leading to accidents.
 
-> ⚠️ Emotion inference and individual profiling in a legal context, combined with no human oversight, creates a significant fundamental rights risk. A Data Protection Impact Assessment (DPIA) is mandatory under GDPR Article 35.
+> ⚠️ Continuous biometric emotion inference of employees with no human oversight, in a safety-critical context, creates severe fundamental rights and occupational safety risks. A Data Protection Impact Assessment (DPIA) is legally mandatory under GDPR Article 35.
 
 ---
 
@@ -109,17 +109,17 @@ This system falls under **all three simultaneously**, which places it in the hig
 
 | Category | Data Types |
 |---|---|
-| **Standard Personal Data** | Name, Email Address, IP Address |
-| **Special Category (Sensitive) Data** | Health data, Biometric data |
+| **Standard Personal Data** | Name, Employee ID, Location |
+| **Special Category (Sensitive) Data** | Biometric data, Health data |
 | **Criminal & Offence Data** | Criminal records |
 
 ### Explanation
 
-- **Standard personal data** (Name, Email, IP) is regulated under GDPR and requires a lawful basis for processing.
-- **Health and Biometric data** are **Special Category data under GDPR Article 9**. Processing these requires explicit consent or another specific Article 9(2) exception, and carries much stricter obligations.
-- **Criminal record data** falls under **GDPR Article 10**, which restricts its processing to official authority or specific legal basis. This is among the most sensitive data categories in EU law.
+- **Standard personal data** (Name, Employee ID, Location) is regulated under GDPR Article 6 and requires a lawful basis (e.g., legitimate interest or contractual necessity in an employment context).
+- **Biometric and Health data** are **Special Category data under GDPR Article 9**. Processing requires explicit consent or another Article 9(2) exception. In an employment context, consent is rarely freely given — meaning another specific exception must apply.
+- **Criminal record data** falls under **GDPR Article 10**, which restricts processing to official authority or a specific legal basis. Including criminal history in a driver monitoring system requires a clear, documented legal mandate.
 
-Processing all three tiers of data simultaneously demands a comprehensive legal basis framework, explicit privacy notices, and robust access controls.
+Processing all three tiers of data simultaneously — including biometric and criminal data about employees in a real-time monitoring system — demands the highest level of legal scrutiny, explicit privacy notices, and robust access controls.
 
 ---
 
@@ -129,11 +129,9 @@ The system processes data about the following categories of individuals:
 
 | Data Subject | Notes |
 |---|---|
-| **Employees** | Employment-related data processing; heightened sensitivity in workplace context |
-| **Customers** | Commercial relationship data; consent and contractual basis apply |
-| **Children** | 🔴 **Highest risk** — GDPR Article 8 applies; parental consent required under 16 (or lower national threshold); prohibited for certain automated decision-making |
+| **Employees (Drivers)** | 🔴 **Heightened sensitivity** — employment context; power imbalance makes freely given consent legally questionable; occupational privacy rights apply |
 
-> 🔴 **Processing data about children** is the most regulated scenario under GDPR. Automated profiling or decision-making affecting children is prohibited or severely restricted. Immediate review is required.
+> 🔴 **Processing biometric, health, and criminal data about employees in a workplace monitoring context** is one of the most heavily regulated scenarios under GDPR and national employment law. Workers' councils, trade unions, and national data protection authorities must typically be consulted before such systems are deployed.
 
 ---
 
@@ -142,9 +140,9 @@ The system processes data about the following categories of individuals:
 | Source | Risk Level |
 |---|---|
 | **Internal Systems** | Moderate — internal data flows, access control required |
-| **Public Web** | High — unknown provenance, potential copyright/privacy issues, no consent from individuals whose data is scraped |
+| **Vehicle Sensors** | High — continuous real-time biometric capture; data minimisation principle requires careful scoping |
 
-Sourcing data from the **public web** means the system may be ingesting personal data without the knowledge of the individuals concerned. This is particularly problematic when combined with profiling and special category data processing.
+Sourcing data directly from **vehicle sensors** means the system is performing **continuous, non-consensual biometric surveillance** of employees while they work. This is a particularly sensitive collection mechanism — the driver cannot opt out while performing their job duties.
 
 ---
 
@@ -154,18 +152,18 @@ Sourcing data from the **public web** means the system may be ingesting personal
 |---|---|
 | **Data State** | Raw |
 | **Processing Actions** | Analyse, Profile, Score |
-| **Region** | Global |
-| **Cross-Border Transfer** | ✅ Yes |
+| **Region** | EU |
+| **Cross-Border Transfer** | ❌ No |
 | **Used for Training** | ✅ Yes |
-| **Retention Period** | Indefinite |
+| **Retention Period** | 2 Years |
 
 ### Explanation
 
-- **Raw data** is processed — meaning data is ingested without prior anonymisation or pseudonymisation, increasing privacy risk.
-- **Analyse, Profile, Score** are all forms of automated processing that individually and collectively trigger GDPR obligations around automated decision-making (Article 22).
-- **Global operations** with **cross-border data transfers** out of the EU/EEA require appropriate safeguards (Standard Contractual Clauses, Adequacy Decisions, or Binding Corporate Rules).
-- **Used for training**: Personal data is fed back into model training — this must be disclosed in privacy notices and may require separate consent.
-- **Indefinite retention** directly violates GDPR's **storage limitation principle (Article 5(1)(e))**, which requires data to be kept only as long as necessary. This must be remediated immediately with a defined retention schedule.
+- **Raw data** is processed — biometric data is ingested directly from sensors without prior anonymisation or pseudonymisation, maximising privacy risk.
+- **Analyse, Profile, Score** are all forms of automated processing that individually and collectively trigger GDPR Article 22 obligations around automated decision-making.
+- **EU region** with **no cross-border transfer** is a positive finding — data does not leave the EU, reducing international transfer compliance burden.
+- **Used for training**: Driver biometric and behavioural data is fed back into model training — this must be explicitly disclosed in privacy notices and is unlikely to be covered by the employment contract alone. A separate lawful basis is required.
+- **2-year retention**: While defined (better than indefinite), 2 years for biometric and health data in an employment context may still exceed what is proportionate. Legal justification is required.
 
 ---
 
@@ -183,13 +181,13 @@ Sourcing data from the **public web** means the system may be ingesting personal
 
 | Concern | Detail |
 |---|---|
-| **Non-EU Hosting** | Data is stored and processed outside the EU. This constitutes an international data transfer and requires legal safeguards under GDPR Chapter V. |
-| **No Model Documentation** | The AI system lacks a model card or technical specification. This violates EU AI Act transparency requirements (Article 13) and makes independent auditing impossible. |
-| **No Explainability** | The system cannot explain how it reaches its conclusions. Users cannot understand, contest, or verify decisions — violating GDPR Article 22(3) and EU AI Act Article 13. |
-| **No Logging** | Without logs, there is no audit trail of inputs, outputs, or decisions. This prevents forensic investigation, regulatory audits, and accountability. |
-| **No Version Tracking** | Changes to the model cannot be traced. There is no way to determine when behaviour changed, or to rollback to a prior state if issues are discovered. |
+| **Non-EU Hosting** | Despite data being collected in the EU, it is hosted on a vendor cloud outside the EU. This constitutes an international data transfer under GDPR Chapter V and requires Standard Contractual Clauses or equivalent safeguards — despite no active cross-border transfer being declared. |
+| **No Model Documentation** | The AI system lacks a model card or technical specification. This directly violates EU AI Act transparency requirements (Article 13) and makes independent safety auditing impossible for a system making real-time safety-critical decisions. |
+| **No Explainability** | When a system scores a driver as "High Fatigue Risk", there is no mechanism to explain why. Drivers, unions, and regulators cannot understand, contest, or verify decisions — violating GDPR Article 22(3) and EU AI Act Article 13. |
+| **No Logging** | Without logs, there is no audit trail of decisions made. In the event of an accident linked to a monitoring failure, forensic investigation is impossible. |
+| **No Version Tracking** | Changes to the model cannot be traced. Safety regressions introduced by model updates cannot be detected or rolled back. |
 
-> 🔴 This combination — no documentation, no explainability, no logging, no version tracking, hosted outside the EU — represents a **critical technical governance failure**.
+> 🔴 In a **safety-critical, real-time biometric monitoring system** operating in an employment context, the absence of documentation, explainability, logging, and version tracking is not merely a compliance gap — it is an **operational safety risk**.
 
 ---
 
@@ -207,11 +205,11 @@ Sourcing data from the **public web** means the system may be ingesting personal
 
 **Every single compliance control is missing.** This is the most serious finding in this assessment:
 
-- **No legal review**: There is no confirmation that the system's use is lawful under applicable regulations (GDPR, EU AI Act, national law).
-- **No DPIA**: A DPIA is legally mandatory under GDPR Article 35 given the combination of high-risk processing (profiling, special category data, children's data, automated decision-making). Non-completion is an immediate regulatory violation.
-- **No bias testing**: Without bias testing, the system may be making discriminatory decisions in legal and employment contexts — creating both ethical harm and legal liability.
-- **No incident response**: There is no plan for what happens if the system produces harmful outputs, suffers a data breach, or is found to be non-compliant.
-- **No Vendor DPA**: A Data Processing Agreement with the vendor (AuditAI Corp) is legally required under GDPR Article 28. Without it, the organisation is in breach of its controller obligations.
+- **No legal review**: There is no documented confirmation that continuous biometric monitoring of employees is lawful under GDPR, national employment law, or applicable transport/safety regulations.
+- **No DPIA**: A DPIA is legally mandatory under GDPR Article 35 given the combination of: biometric data, health data, criminal data, profiling, automated decisions, and employment context. Non-completion is an immediate regulatory violation.
+- **No bias testing**: Computer Vision systems are well-documented to perform unequally across different demographic groups (particularly based on skin tone, age, gender). Without bias testing, the system may be systematically penalising certain driver groups — creating discrimination liability.
+- **No incident response**: There is no plan for what happens if the system malfunctions during a critical driving situation, produces a false positive that grounds a driver, or suffers a data breach exposing biometric records.
+- **No Vendor DPA**: A Data Processing Agreement with AutoSafe Technologies is legally required under GDPR Article 28. Without it, the organisation is in breach of its data controller obligations and bears full liability for any data misuse by the vendor.
 
 ---
 
@@ -219,19 +217,16 @@ Sourcing data from the **public web** means the system may be ingesting personal
 
 | Field | Value |
 |---|---|
-| **Shadow AI Tools in Use** | ChatGPT, GitHub Copilot |
+| **Shadow AI Tools in Use** | None |
 | **Company Data Entered into Shadow Tools** | ✅ Yes |
 
 ### Explanation
 
-In addition to the official Smart Contract Auditor system, employees are using **unauthorised AI tools (ChatGPT and GitHub Copilot)** — and are **entering company data into these tools**.
+No additional unauthorised AI tools have been identified in use alongside this system. However, **company data has been entered into public AI tools** — indicating that employees are using external AI services (even if not specifically named) to process information related to their work.
 
-This represents a significant **data leakage risk**:
-- Company confidential data, potentially including personal data and special category data, may be shared with third-party AI providers without legal basis, privacy notices, or data processing agreements.
-- Outputs from these tools may be incorporated into work products without disclosure.
-- These tools are beyond the organisation's control, consent framework, or security perimeter.
+This requires investigation to determine which tools are involved and what categories of data (potentially including driver records or operational data) have been shared with third-party AI providers outside the organisation's control.
 
-> ⚠️ An acceptable use policy for AI tools must be established and enforced. Employees must be trained. Shadow AI usage must be formally assessed and either approved with controls, or prohibited.
+> ⚠️ An acceptable use policy for AI tools must be established and enforced. Any external AI tool handling company operational or personal data must be assessed, contracted, and controlled.
 
 ---
 
@@ -240,18 +235,19 @@ This represents a significant **data leakage risk**:
 | Field | Value |
 |---|---|
 | **Business Criticality** | Mission Critical |
-| **Business Impact** | Safety impact |
+| **Business Impact if Fails** | Safety impact |
 
 ### Explanation
 
-The system is rated **Mission Critical**, meaning the organisation's core operations depend on it — failure or unavailability directly disrupts business continuity.
+The system is rated **Mission Critical** — the organisation's fleet operations depend on it and failure directly disrupts business continuity.
 
-The **impact type is "Safety impact"** — the system's outputs can affect the safety of individuals. In a legal auditing context, an incorrect finding could:
-- Lead to a legally flawed contract being approved.
-- Result in wrongful accusations or missed criminal behaviour.
-- Cause financial or physical harm to individuals whose data was misprocessed.
+The **impact type is "Safety impact"** — this is the most severe category. In an autonomous driver monitoring context, system failures can have direct physical safety consequences:
 
-The combination of Mission Critical status and Safety impact means that any failure of this system carries both operational and human-safety consequences — elevating this to the **highest priority** for remediation.
+- A **false negative** (failing to detect an impaired driver) could result in a road accident causing injury or death.
+- A **false positive** (wrongly scoring an alert driver as fatigued) could ground vehicles unnecessarily, impacting both business operations and driver livelihoods.
+- A **data breach** exposing biometric and health data of drivers creates immediate regulatory, legal, and reputational consequences.
+
+The combination of Mission Critical status and Safety impact means that any failure of this system carries both operational and human-safety consequences — placing this in the **absolute highest priority** category for risk remediation.
 
 ---
 
@@ -259,28 +255,39 @@ The combination of Mission Critical status and Safety impact means that any fail
 
 | Risk Domain | Rating | Reason |
 |---|---|---|
-| EU AI Act Compliance | 🔴 **Critical** | High-risk system with no conformity assessment, documentation, or oversight |
-| GDPR Compliance | 🔴 **Critical** | No DPIA, no DPA, indefinite retention, special category + children's data |
-| Technical Governance | 🔴 **Critical** | No logging, no explainability, no version tracking, non-EU hosting |
-| Data Ethics | 🔴 **High** | Emotion inference, individual profiling, no bias testing |
-| Operational Risk | 🟠 **High** | Mission critical with no incident response plan |
-| Shadow AI Risk | 🟠 **High** | Uncontrolled tools with company data exposure |
+| EU AI Act Compliance | 🔴 **Critical** | High-risk system (Critical Infra + Employee Monitoring) with no conformity assessment, documentation, or oversight |
+| GDPR Compliance | 🔴 **Critical** | Biometric + health + criminal data; no DPIA, no vendor DPA; employment context with continuous surveillance |
+| Technical Governance | 🔴 **Critical** | No logging, no explainability, no version tracking, non-EU hosting for safety-critical biometric system |
+| Data Ethics | 🔴 **Critical** | Emotion inference + biometric profiling of employees with no bias testing or contestation mechanism |
+| Operational / Safety Risk | 🔴 **Critical** | Mission Critical + Safety Impact + no incident response plan |
+| Shadow AI Risk | 🟠 **Medium** | No named tools, but company data confirmed entering public AI — requires investigation |
+
+### Weighted Risk Score
+
+| Component | Score | Weight | Contribution |
+|---|---|---|---|
+| AI Act Risk — `High Risk` | 4/5 | × 0.45 | 1.80 |
+| GDPR Classification — `Criminal Data` | 5/5 | × 0.35 | 1.75 |
+| Business Impact — `Safety impact` | 5/5 | × 0.20 | 1.00 |
+| **Final Score** | | | **4.55 / 5.00 🔴 Red** |
+
+**Combined Priority: CRITICAL**
 
 ---
 
 ## 13. Recommended Immediate Actions
 
-1. **Halt automated decision-making** affecting children until legal basis is established and human oversight is implemented.
-2. **Complete a DPIA** immediately — this is a legal requirement, not optional.
-3. **Sign a Data Processing Agreement** with AuditAI Corp before any further personal data is shared.
-4. **Implement logging and audit trails** across all system inputs and outputs.
-5. **Define and enforce a data retention policy** — indefinite retention must be replaced with a justified schedule.
-6. **Conduct a legal review** covering GDPR, EU AI Act Annex III, and any applicable national law.
-7. **Implement human oversight** — introduce a human review step before AI audit findings are acted upon.
-8. **Ban or control shadow AI usage** — establish an AI acceptable use policy and enforce it.
-9. **Request model documentation and explainability reports** from AuditAI Corp.
-10. **Develop an incident response plan** covering AI-specific failure scenarios.
+1. **Halt or suspend deployment** until a legal basis for biometric and criminal data processing of employees is formally established and documented.
+2. **Complete a DPIA** immediately — legally mandatory under GDPR Article 35 for this system profile. Must include a worker/union consultation step.
+3. **Sign a Data Processing Agreement** with AutoSafe Technologies before any further personal data is processed under their system.
+4. **Implement logging and audit trails** — especially for all automated decisions and risk score outputs that affect drivers.
+5. **Conduct bias testing** of the Computer Vision model across all relevant driver demographic groups (skin tone, age, gender) before continued use.
+6. **Implement explainability** — drivers must be able to understand why they received a particular score or alert, and must have a right to contest it.
+7. **Conduct a legal review** covering GDPR Article 9 & 10, EU AI Act Annex III, national employment law, and transport safety regulations.
+8. **Implement human oversight** — introduce a human review step before automated scores trigger any operational consequence for a driver.
+9. **Resolve the non-EU hosting issue** — either migrate to EU-based infrastructure or establish appropriate Standard Contractual Clauses with AutoSafe Technologies.
+10. **Investigate and control shadow AI usage** — identify which tools company data is being entered into and establish an AI acceptable use policy.
 
 ---
 
-*This document was generated from the AI Governance Full Assessment questionnaire. It should be reviewed by the Data Protection Officer (DPO), Legal Counsel, and the AI system owner.*
+*This document was generated from the AI Governance Full Assessment questionnaire (Discovery API dummy data — Autonomous Driver Monitoring System profile). It should be reviewed by the Data Protection Officer (DPO), Legal Counsel, Works Council (if applicable), and the AI system owner.*
