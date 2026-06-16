@@ -1,81 +1,72 @@
-# PDF Form Filler by LlamaIndex
+# 🚚 Predictive Vehicle Maintenance Platform — AI Governance Profile
 
-An AI-powered application that fills PDF forms using natural language instructions. Built with the Claude Agent SDK, LlamaParse, and a modern React frontend.
+> **Repository**: AI Governance Demo Data  
+> **System**: Predictive Vehicle Maintenance Platform  
+> **Framework**: EU AI Act (High Risk Annex III) & GDPR compliance profile  
+> **Version**: 2.4 | **Lifecycle Stage**: Production | **Primary Language**: English
 
-## Overview
+---
 
-This repository contains a full-stack application for intelligent PDF form filling:
+## ⚠️ System Identity, Context & Ownership
 
-- **Backend**: Python FastAPI server with Claude Agent SDK and custom MCP tools
-- **Frontend**: Next.js 16 + React 19 with real-time streaming UI
-- **PDF Processing**: PyMuPDF for form field detection and editing
-- **Document Parsing**: LlamaParse for extracting context from uploaded files
+The system described in this repository is named the **Predictive Vehicle Maintenance Platform**. It operates within the organization's **Operations** department and is managed under the direct supervision of the fleet operations unit, with **fleet.ops@company.com** serving as the primary owner and contact address. 
 
-## Key Features
+The software itself is a **Third-Party** system sourced from the external vendor **FleetPredict AI**. It is currently deployed as version **2.4** and runs actively in our live **Production** environment. All documentation, system UI elements, and configuration outputs are prepared in the **English** language.
 
-- Natural language form filling ("Fill in my name as John Doe")
-- Multi-turn conversations for iterative refinement
-- Context file upload (PDF, DOCX, PPTX, images) to extract information
-- Real-time streaming progress via Server-Sent Events
-- Session persistence across page reloads
-- Dual PDF view (original vs. filled)
+---
 
-## Quick Start
+## ⚙️ AI Capabilities & Output Profile
 
-```bash
-# Navigate to the main application
-cd form-filling-exp
+This platform is classified under the **Predictive ML** AI type, employing advanced **Machine Learning** and **Predictive Analytics** to evaluate vehicles and operator habits. 
 
-# Setup Python backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+The primary purpose of the system is to predict vehicle component failures and optimize maintenance scheduling to reduce downtime and operational costs. The model processes telemetry, vibration, and operator performance data to output structured **Risk Scores** (related to vehicle wear and driver habits) and actionable maintenance **Recommendations** for dispatchers.
 
-# Setup frontend
-cd web && npm install && cd ..
+---
 
-# Set required API key
-export ANTHROPIC_API_KEY=sk-ant-your-key
+## 👥 Human Interaction & Automated Decisions
 
-# Run backend (Terminal 1)
-cd backend && python main.py
+The platform **interacts with people** by tracking driver telematics and presenting recommendations to fleet dispatchers. 
 
-# Run frontend (Terminal 2)
-cd web && npm run dev
-```
+The system operates in a **Fully Automated** decision mode with **None** (no human oversight) integrated into the core alert-routing loop. Risk levels and component warning scores automatically trigger vehicle bookings, operational restrictions, and safety alerts without requiring any manual review or secondary approval by a fleet manager.
 
-Open http://localhost:3000 in your browser.
+---
 
-## Repository Structure
+## ⚖️ High-Risk Triggers & Rights Impact (EU AI Act)
 
-```
-.
-├── form-filling-exp/     # Main application
-│   ├── backend/          # FastAPI + Claude Agent SDK
-│   ├── web/              # Next.js frontend
-│   ├── requirements.txt  # Python dependencies
-│   └── README.md         # Detailed documentation
-├── plans/                # Implementation plans
-├── research/             # Research documentation
-└── README.md             # This file
-```
+Under the EU AI Act framework, this system qualifies as a High-Risk AI System. It is actively deployed in two Annex III high-risk domains:
+1. **Critical Infrastructure**: Since it controls scheduling and maintenance for transport infrastructure.
+2. **Employee Monitoring**: Since it tracks and profiles employees (drivers).
 
-## Requirements
+Because the system **profiles individuals** (drivers) to determine risk and **infers emotions** (detecting behavioral states like stress and fatigue from telemetry/video patterns), it directly **impacts fundamental rights**. Due to the real-world navigation and scheduling risks, the official impact type is designated as a **Safety impact**.
 
-- Python 3.10+
-- Node.js 18+
-- Anthropic API key (required)
-- LlamaCloud API key (optional, for context file parsing)
+---
 
-## Documentation
+## 🔒 GDPR Data Protection Profile
 
-See [form-filling-exp/README.md](form-filling-exp/README.md) for detailed documentation including:
+From a data protection perspective, the platform processes multiple categories of personal data. The standard personal data collected consists of the driver's **Name**, **Employee ID**, and real-time GPS **Location**. 
 
-- Full setup instructions
-- API endpoint reference
-- Configuration options
-- Technical details
+Under GDPR Article 9, it also processes sensitive category data, specifically **Biometric** and **Health** indicators collected via cabin telematics to evaluate alertness. Under Article 10, the platform processes **Criminal Record** information to verify driver clearances.
 
-## License
+The data subjects involved in this system are solely company **Employees**. The data sources feeding the platform are **Internal Systems** and a **Third-party API**. All data is collected in its **Raw** state and subjected to three main processing actions: **Analyse**, **Profile**, and **Score**. All operations occur within the **EU** region, and there is no **cross-border transfer** of personal data (cross_border_transfer is false). The processed data is **used for training** the models, and all logs and personal records are subject to a **3 Years** retention period.
 
-MIT
+---
+
+## 🛠️ Technical Controls & Infrastructure
+
+The platform is hosted on a **Vendor Cloud non-EU** infrastructure, indicating that telemetry and profile database hosting occurs outside the EEA. 
+
+Regarding technical controls, the model is **No** (not documented), meaning no model card or conformity file is available. The system's explainability score is **No**, operating as a black box. System logging is **No** (logging_enabled is false/No), and there is no **version tracking** active in the production pipeline.
+
+---
+
+## 📋 Compliance Status & Governance Exposure
+
+An audit of the system reveals significant governance gaps. Legal review is **No** (not completed), and a Data Protection Impact Assessment (DPIA) is **No** (not completed). 
+
+The predictive models are **No** (not tested for bias), and there is **No** (no incident response plan) for AI failures. The company has **No** (not signed a Vendor DPA) under Article 28 GDPR with the vendor.
+
+There are **None** (no shadow AI tools in use) by the operations team for this platform. However, company data has been entered into the vendor's public tools, so **company data entered** is true (Yes). 
+
+The system's business criticality is rated as **Mission Critical**, and its business impact is classified as a **Safety impact** due to the potential consequences of fleet or component warning failures.
+
+---
